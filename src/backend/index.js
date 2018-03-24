@@ -15,4 +15,4 @@ app.get('/react', function (req, res) {
 app.use('/graphql', bodyParser.json(), graphqlExpress({ schema: myGraphQLSchema }));
 app.get('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
-app.listen(3004, () => console.log('Example app listening on port 3000!'))
+app.listen(3004, () => console.log('Example app listening on port 3004!'))
